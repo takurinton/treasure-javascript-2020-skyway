@@ -28,15 +28,27 @@
         const theirID = document.getElementById('their-id').value;
         const mediaConnection = peer.call(theirID, localStream);
         setEventListener(mediaConnection);
+        
     };
 
+
+    // ここで繋いだりする処理を行う
     const setEventListener = mediaConnection => {
         mediaConnection.on('stream', stream => {
           // video要素にカメラ映像をセットして再生
           const videoElm = document.getElementById('their-video')
           videoElm.srcObject = stream;
           videoElm.play();
-        });
+
+          document.getElementById("close-call").addEventListener('click', () => 
+            mediaConnection.close(true)            
+          )
+        })
+        mediaConnection.on("close", () => {
+          alert('切れました')
+          document.getElementById("their-video").style.display = 'none'
+          videoElement.load();
+        })
       }
 
 
@@ -45,8 +57,5 @@
         setEventListener(mediaConnection);
     });
 
-    peer.on('close', () => {
-        alert('通信が切断しました。');
-      });
 
 })();
