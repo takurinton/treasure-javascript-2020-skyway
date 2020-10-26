@@ -1,3 +1,1 @@
-```sh
-$ open index.html
-```
+[こっち](https://github.com/takurinton/textapp)
