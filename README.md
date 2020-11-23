@@ -4,4 +4,3 @@
 
 ってのを作った
 
-[これ](https://takurinton.github.io/textapp)
