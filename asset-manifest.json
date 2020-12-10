@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/treasure-javascript-2020-skyway/static/js/main.b57fe57c.chunk.js",
+    "main.js.map": "/treasure-javascript-2020-skyway/static/js/main.b57fe57c.chunk.js.map",
+    "runtime-main.js": "/treasure-javascript-2020-skyway/static/js/runtime-main.ffbad9b5.js",
+    "runtime-main.js.map": "/treasure-javascript-2020-skyway/static/js/runtime-main.ffbad9b5.js.map",
+    "static/js/2.ffa117f9.chunk.js": "/treasure-javascript-2020-skyway/static/js/2.ffa117f9.chunk.js",
+    "static/js/2.ffa117f9.chunk.js.map": "/treasure-javascript-2020-skyway/static/js/2.ffa117f9.chunk.js.map",
+    "index.html": "/treasure-javascript-2020-skyway/index.html",
+    "precache-manifest.a684b27da4a76d7d3d9fb23df235ca0f.js": "/treasure-javascript-2020-skyway/precache-manifest.a684b27da4a76d7d3d9fb23df235ca0f.js",
+    "service-worker.js": "/treasure-javascript-2020-skyway/service-worker.js",
+    "static/js/2.ffa117f9.chunk.js.LICENSE.txt": "/treasure-javascript-2020-skyway/static/js/2.ffa117f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffbad9b5.js",
+    "static/js/2.ffa117f9.chunk.js",
+    "static/js/main.b57fe57c.chunk.js"
+  ]
+}
